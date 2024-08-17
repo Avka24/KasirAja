@@ -1,0 +1,13 @@
+{
+  "name": "fruit-sales-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/app.js",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "cors": "^2.8.5"
+  }
+}
